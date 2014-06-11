@@ -56,13 +56,24 @@ WSGI_APPLICATION = 'apidemo.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql', 
+#         'NAME': 'ironhack-api-demo-test',     
+#         'USER': 'ironhackdemo',               
+#         'PASSWORD': 'ironhackdemo',               
+#         'HOST': '127.0.0.1',                        
+#         'PORT': '',                           
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', 
-        'NAME': 'ironhack-api-demo-test',     
-        'USER': 'ironhackdemo',               
-        'PASSWORD': 'ironhackdemo',               
-        'HOST': '127.0.0.1',                        
+        'NAME': 'heroku_6cec56aeab18312',     
+        'USER': 'bcdd48ad73fdb3',               
+        'PASSWORD': '9d5af602',               
+        'HOST': 'eu-cdbr-west-01.cleardb.com',                        
         'PORT': '',                           
     }
 }
