@@ -17,6 +17,6 @@ urlpatterns = patterns('',
 
 
     url(r'^admin/', include(admin.site.urls)),
-    #NOT FOUND
+
     url(r'^', 'api.views.default'),
 )
